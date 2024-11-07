@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebak Angka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Game Tebak Angka</h1>
+        <p>Saya memilih angka antara 1 hingga 100. Coba tebak angka tersebut!</p>
+        <input type="number" id="guessInput" placeholder="Masukkan tebakan" min="1" max="100">
+        <button id="guessButton" onclick="makeGuess()">Tebak</button>
+        <p id="message"></p>
+        <p id="remaining"></p>
+        <button onclick="resetGame()" class="reset">Mulai Ulang</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
